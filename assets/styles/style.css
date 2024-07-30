@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap");
+
+:root {
+  --sunset-orange: #fb9600;
+  --royal-purple: #3a00e5;
+  --primary-subtle: #f7f5ff;
+  --off-white: #fafafa;
+  --midnight-blue: #353e89;
+  --gunmetal-gray: #61646b;
+  --medium-gray: #929292;
+  --rose-red: #ec5b7d;
+  --lime-green: #2bb31f;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-midnight-blue {
+  color: var(--midnight-blue);
+}
+
+.text-medium-gray {
+  color: var(--medium-gray);
+}
+
+.text-royal-purple {
+  color: var(--royal-purple);
+}
+
+.text-rose-red {
+  color: var(--rose-red);
+}
+
+.text-lime-green{
+  color: var(--lime-green);
+}
+
+li::marker {
+  list-style-type: none;
+  font-size: 1.3em;
+  color: var(--sunset-orange);
+}
+
+.bank-logo {
+  width: 78px;
+  height: 73px;
+}
+
+.background-primary-subtle {
+  background-color: var(--primary-subtle);
+}
+
+.background-rose-red {
+  background-color: var(--rose-red);
+}
+
+.background-royal-purple {
+  background-color: var(--royal-purple);
+}
+
+/* custom royal purple button */
+.btn-royal-purple {
+  background-color: #3a00e5; /* Royal purple background color */
+  color: #ffffff; /* Text color */
+  border-color: #3a00e5; /* Border color */
+}
+
+.btn-royal-purple:hover {
+  background-color: #2d0080; /* Darker shade on hover */
+  color: #ffffff;
+  border-color: #2d0080; /* Darker shade on hover */
+}
+
+.btn-royal-purple:active {
+  background-color: #3a00e5 !important; /* Maintain purple background color on click */
+  color: #ffffff !important;
+  border-color: #3a00e5 !important; /* Maintain purple border color on click */
+}
+/* end custom royal purple button */
+
+/* custom rose red button */
+.btn-rose-red {
+  background-color: #ec5b7d; /* Rose red background color */
+  color: #ffffff; /* Text color */
+  border-color: #ec5b7d; /* Border color */
+}
+
+.btn-rose-red:hover {
+  background-color: #d44469; /* Darker shade on hover */
+  color: #ffffff;
+  border-color: #d44469; /* Darker shade on hover */
+}
+
+.btn-rose-red:active {
+  background-color: #ec5b7d !important; /* Maintain rose red background color on click */
+  color: #ffffff !important;
+  border-color: #ec5b7d !important; /* Maintain rose red border color on click */
+}
+/* end custom rose red button */
+
+/* custom white button */
+.btn-white {
+  background-color: #ffffff; /* White background color */
+  color: #000000; /* Black text color */
+  border-color: #ffffff; /* White border color */
+}
+
+.btn-white:hover {
+  background-color: #f0f0f0; /* Light gray shade on hover */
+  color: #000000; /* Black text color */
+  border-color: #f0f0f0; /* Light gray shade on hover */
+}
+
+.btn-white:active {
+  background-color: #ffffff !important; /* Maintain white background color on click */
+  color: #000000 !important; /* Maintain black text color on click */
+  border-color: #ffffff !important; /* Maintain white border color on click */
+}
+/* end custom white button */
+
+/* custom green button */
+.btn-lime-green {
+  background-color: #2bb31f; /* Green background color */
+  color: #ffffff; /* Text color */
+  border-color: #2bb31f; /* Border color */
+}
+
+.btn-lime-green:hover {
+  background-color: #1e7a11; /* Darker shade on hover */
+  color: #ffffff;
+  border-color: #1e7a11; /* Darker shade on hover */
+}
+
+.btn-lime-green:active {
+  background-color: #2bb31f !important; /* Maintain green background color on click */
+  color: #ffffff !important;
+  border-color: #2bb31f !important; /* Maintain green border color on click */
+}
+/* end custom green button */
+
+.active-nav-link {
+  color: white;
+  background-color: var(--royal-purple);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: var(--off-white);
+  color: var(--gunmetal-gray);
+}
+
+tbody {
+  color: var(--gunmetal-gray);
+}
+
+.td {
+  background-color: var(--primary-subtle);
+  color: var(--gunmetal-gray);
+}
+
+.fs-data-diri-details {
+  /* Equivalent to 16px relative to 14px default font based on figma design */
+  font-size: 1.1429rem;
+}
+
+hr {
+  border: none;
+  color: #000000;
+  background-color: #000000;
+  height: 1px;
+}
+
+.background-ini {
+  background-image: url("assets/images/login.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+}
+
+.logo-nav .nav-link {
+  padding: 0 10px; /* Menambahkan padding horizontal untuk setiap logo */
+}
+
+.logo-nav {
+  margin-right: 20px; /* Menambahkan margin kanan pada container logo-nav */
+}
+
+.upload-text {
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  white-space: nowrap; /* Mencegah teks terpecah menjadi dua baris */
+}

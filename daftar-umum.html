@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daftar Aplikasi</title>
+
+    <!-- Bootsrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="./assets/images/sitebas.png"
+              alt=""
+              width="85px"
+              height="93px"
+            />
+          </div>
+          <div class="col-8 align-content-center">
+            <div class="row">
+              <h1 class="col-12 fw-medium m-0" style="font-size: 1.2rem">
+                <span class="color-royal-purple fw-bold">SITEBAS</span> | UPA
+                BAHASA
+              </h1>
+              <p class="col-12 m-0" style="font-size: 0.82rem">
+                Sistem Informasi Test Kompetensi <br />
+                Bahasa Inggris
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Logo -->
+
+        <!-- Nav Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav logo-nav">
+            <a class="nav-link" href="#">
+              <img
+                src="./assets/images/untirta.png"
+                alt="untirta logo"
+                height="40px"
+                width="40px"
+              />
+            </a>
+            <a class="nav-link" href="#">
+              <img
+                src="./assets/images/sitebas.png"
+                alt="sitebas logo"
+                height="40px"
+                width="40px"
+              />
+            </a>
+            <a class="nav-link" href="#">
+              <img
+                src="./assets/images/kampus_merdeka.png"
+                alt="kampus merdeka logo"
+                height="40px"
+                width="60px"
+              />
+            </a>
+            <a class="nav-link" href="#">
+              <img
+                src="./assets/images/blu-promise.png"
+                alt="blu promise logo"
+                height="35px"
+                width="100px"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- End Nav Links -->
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- start main -->
+    <div class="bg-body-secondary">
+      <main class="container row mx-auto pb-5" style="color: #353e89">
+        <div class="row">
+          <div style="margin-left: 12px">
+            <!-- kata kata -->
+            <div class="d-flex align-items-center mt-4" style="font-size: 28px">
+              <b>Daftar</b>
+              <p style="margin: 0 0 0 20px">(Umum)</p>
+            </div>
+            <!-- end kata kata -->
+
+            <!-- tombol peringatan disini -->
+            <div
+              class="alert alert-warning"
+              role="alert"
+              style="
+                background-color: #fdd213;
+                margin-top: 25px;
+                display: inline-block;
+                padding: 0.3rem 0.75rem;
+                width: auto;
+              "
+            >
+              <i class="fas fa-exclamation-triangle"></i>
+              <span> perhatian </span>
+            </div>
+            <!-- end tombol peringatan -->
+            <p style="color: black">
+              Jika Anda merupakan bagian dari civitas Untirta, anda tidak perlu
+              melakukan <br />
+              pendaftaran. Anda bisa langsung Masuk ke dalam aplikasi
+              menggunakan SSO
+            </p>
+            <!-- end kata kata -->
+          </div>
+
+          <!-- form 1 start -->
+          <div class="col-lg-4">
+            <div class="container">
+              <hr style="border: 1px solid #3a00e5" />
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <!-- nama -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">Nama Lengkap</label>
+                      <input
+                        style="border-color: #2f4ef2"
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end nama -->
+                    <!-- nik -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">NIK</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end nik -->
+                    <!-- ttl -->
+                    <div class="mb-3 col-12">
+                      <div class="row">
+                        <label for="tempat" class="col-12 form-label">
+                          Tempat & Tanggal Lahir</label
+                        >
+                        <div class="col-lg-8 mb-2 mb-lg-0">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="nama"
+                            name="nama"
+                          />
+                        </div>
+                        <div class="col-lg-4">
+                          <input
+                            type="date"
+                            class="form-control"
+                            id="nama"
+                            name="nama"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end ttl -->
+                    <!-- jenis kelamin -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">Jenis Kelamin</label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Pilih Jenis Kelamin</option>
+                        <option value="1">Laki-laki</option>
+                        <option value="2">Perempuan</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- form 1 end -->
+          
+          <!-- form 2 start -->
+          <div class="col-lg-4">
+            <div class="container">
+              <hr style="border: 1px solid #3a00e5" />
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <!-- nama -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">Pekerjaan</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end nama -->
+                    <!-- nik -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">Nama Instansi</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end nik -->
+
+                    <!-- ttl -->
+                    <div class="mb-3 col-12">
+                      <div class="row">
+                        <div class="col-xl-6">
+                          <label for="nama" class="form-label text-nowrap"
+                            >Pendidikan Terakhir</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="nama"
+                            name="nama"
+                          />
+                        </div>
+                        <div class="col-xl-6">
+                          <label for="nama" class="form-label"
+                            >Tahun Lulus</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="nama"
+                            name="nama"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end ttl -->
+
+                    <!-- jenis kelamin -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label"
+                        >Kewarganegaraan</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- form 2 end -->
+
+          <!-- form 3 start -->
+          <div class="col-lg-4">
+            <div class="container">
+              <hr style="border: 1px solid #3a00e5" />
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <!-- bahasa sehari-hari-->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label"
+                        >Bahasa sehari-hari</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end bahasa sehari-hari -->
+                    <!-- telepon -->
+                    <div class="mb-3 col-12">
+                      <label for="nama" class="form-label">telepon</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nama"
+                        name="nama"
+                      />
+                    </div>
+                    <!-- end telepon -->
+                    <!-- email -->
+                    <div class="mb-3 col-12">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                    <!-- end email -->
+                    <!-- kata sandi -->
+                    <div class="mb-3 col-12">
+                      <label for="password" class="form-label"
+                        >kata sandi</label
+                      >
+                      <input type="password" class="form-control" />
+                    </div>
+                    <!-- end kata sandi -->
+                    <!-- button -->
+                    <div class="mb-3 col-12">
+                      <button
+                        type="submit"
+                        class="btn btn-primary col-12"
+                        style="background: #3a00e5; border-radius: 10px"
+                      >
+                        Daftar
+                      </button>
+                    </div>
+                    <!-- end button -->
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- form 3 end -->
+        </div>
+      </main>
+    </div>
+
+    <!-- Bootsrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

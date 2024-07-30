@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+
+    <!-- Bootsrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body class="bg-body-secondary overflow-x-hidden min-vh-100">
+    <!-- main-->
+    <main class="row">
+      <div class="col-md-8 d-none d-xl-block">
+        <div
+          class="background-ini"
+          style="background-image: url(assets/images/login.jpg)"
+        >
+          <div
+            class="bottom-text"
+            style="
+              position: absolute;
+              bottom: 50px;
+              left: 18%;
+              transform: translateX(-50%);
+              color: white;
+            "
+          >
+            <b style="font-size: 32px"
+              >Sistem Informasi Tes <br />
+              Kompetensi Bahasa Inggris</b
+            >
+            <hr
+              style="
+                height: 2px;
+                border-width: 0;
+                color: white;
+                background-color: white;
+              "
+            />
+            <p style="font-size: 18px">
+              UPA BAHASA | Universitas Sultan Ageng Tirtayasa
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 ">
+        <!-- logo navbar -->
+        <nav class="navbar navbar-expand-sm align-items-center d-none d-sm-block">
+          <div
+            class="container justify-content-center"
+            style="margin-top: 50px; margin-bottom: 50px"
+          >
+            <div class="navbar-nav logo-nav d-flex">
+              <a class="nav-link" href="#">
+                <img
+                  src="./assets/images/untirta.png"
+                  alt="untirta logo"
+                  height="50px"
+                  width="50px"
+                />
+              </a>
+              <a class="nav-link" href="#">
+                <img
+                  src="./assets/images/sitebas.png"
+                  alt="sitebas logo"
+                  height="50px"
+                  width="60px"
+                />
+              </a>
+              <a class="nav-link" href="#">
+                <img
+                  src="./assets/images/kampus_merdeka.png"
+                  alt="kampus merdeka logo"
+                  height="50px"
+                  width="80px"
+                />
+              </a>
+              <a class="nav-link" href="#">
+                <img
+                  src="./assets/images/blu-promise.png"
+                  alt="blu promise logo"
+                  height="50px"
+                  width="150px"
+                />
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!-- end logo -->
+
+        <div class="container d-flex justify-content-center align-items-center">
+          <!-- form -->
+          <form action="" class="col-12" style="color: #353e89">
+            <!-- input -->
+            <div class="row">
+              <!-- nama form -->
+              <div class="col-12">
+                <b style="color: #353e89; font-size: 28px">Masuk</b>
+              </div>
+
+              <!-- email form -->
+              <div class="mb-3 col-12" style="margin-top: 20px">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  style="background-color: #f2f2f2; border-radius: 10px"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <!-- end email form -->
+
+              <!-- password form -->
+              <div class="mb-3 col-12">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Kata Sandi</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  style="background-color: #f2f2f2; border-radius: 10px"
+                />
+              </div>
+              <!-- pasword email form -->
+
+              <!-- kode keamanan form -->
+              <div class="mb-3 col-12">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Kode Keamanan</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  style="background-color: #f2f2f2; border-radius: 10px"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <!-- input kode keamanan -->
+              <div class="mb-3 col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  style="background-color: #f2f2f2; border-radius: 10px"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <!-- end input kode keamanan -->
+              <!-- end kode keamanan form -->
+
+              <!-- end input -->
+              <div class="row">
+                <!-- submit button -->
+                <div class="col-8">
+                  <button
+                    class="btn btn-secondary w-100"
+                    style="
+                      background-color: #c0c0c0;
+                      border-radius: 10px;
+                      width: 197px;
+                      height: 44px;
+                      left: 910px;
+                      top: 644px;
+                    "
+                  >
+                    Daftar
+                  </button>
+                </div>
+                <div class="col-4">
+                  <button
+                    class="btn btn-primary w-100"
+                    style="
+                      background-color: #3a00e5;
+                      border-radius: 10px;
+                      width: 117px;
+                      height: 44px;
+                      left: 1115px;
+                      top: 644px;
+                    "
+                  >
+                    Masuk
+                  </button>
+                </div>
+                <!-- end submit button -->
+              </div>
+            </div>
+          </form>
+          <!-- end form -->
+        </div>
+      </div>
+    </main>
+    <!-- end main-->
+  </body>
+</html>
